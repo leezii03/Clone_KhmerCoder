@@ -14,7 +14,7 @@ const Events = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
         <Link>
           <EventCard
-            img="/public/image.jpg"
+            img="/image.jpg"
             date={"May, 17th 2025"}
             title={"Khmer Coders Party Siemreap v1"}
             description={
@@ -26,7 +26,7 @@ const Events = () => {
         </Link>
         <Link>
           <EventCard
-            img="/public/image.jpg"
+            img="/image.jpg"
             date={"March, 7th 2025"}
             title={"Khmer Coders Party v5"}
             description={
@@ -38,7 +38,7 @@ const Events = () => {
         </Link>
         <Link>
           <EventCard
-            img="/public/image.jpg"
+            img="/image.jpg"
             date={"November, 7th 2024"}
             title={"Khmer Coders Party v4"}
             description={
@@ -50,7 +50,7 @@ const Events = () => {
         </Link>
         <Link>
           <EventCard
-            img="/public/image.jpg"
+            img="/image.jpg"
             date={"August, 9th 2024"}
             title={"Khmer Coders Party v3"}
             description={
@@ -62,7 +62,7 @@ const Events = () => {
         </Link>
         <Link>
           <EventCard
-            img="/public/image.jpg"
+            img="/image.jpg"
             date={"June, 7th 2024"}
             title={"Khmer Coders Party v2"}
             description={
@@ -74,7 +74,7 @@ const Events = () => {
         </Link>
         <Link>
           <EventCard
-            img="/public/image.jpg"
+            img="/image.jpg"
             date={"February 16, 2024"}
             title={"Khmer Coders Party v1"}
             description={
