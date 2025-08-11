@@ -22,7 +22,10 @@ const Home = () => {
             </p>
 
             <div className="flex gap-2 mt-5 text-black">
-              <a href="" className="px-5 py-2 bg-yellow-500 rounded-md hover:bg-yellow-500/90 transition-all flex gap-2 items-center">
+              <a
+                href=""
+                className="px-5 py-2 bg-yellow-500 rounded-md hover:bg-yellow-500/90 transition-all flex gap-2 items-center"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -39,7 +42,11 @@ const Home = () => {
                 </svg>
                 Join Facebook
               </a>
-              <a href="https://t.me/+MuGVsenu2hA1MzU1" target="_blank" className="px-5 py-2 bg-yellow-500 rounded-md hover:bg-yellow-500/90 transition-all flex gap-2 items-center">
+              <a
+                href="https://t.me/+MuGVsenu2hA1MzU1"
+                target="_blank"
+                className="px-5 py-2 bg-yellow-500 rounded-md hover:bg-yellow-500/90 transition-all flex gap-2 items-center"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -85,7 +92,11 @@ const Home = () => {
                 </svg>
                 Join Discord
               </a>
-              <a href="https://t.me/+MuGVsenu2hA1MzU1" target="_blank" className="px-5 py-2 bg-yellow-500 rounded-md hover:bg-yellow-500/90 transition-all flex gap-2 items-center">
+              <a
+                href="https://t.me/+MuGVsenu2hA1MzU1"
+                target="_blank"
+                className="px-5 py-2 bg-yellow-500 rounded-md hover:bg-yellow-500/90 transition-all flex gap-2 items-center"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -109,7 +120,7 @@ const Home = () => {
           <div className="relative flex-1">
             <img
               className="w-full h-96 object-cover rounded-md"
-              src="https://khmercoder.com/hero-banner.jpg"
+              src="/public/image.jpg"
               alt=""
             />
 
@@ -204,9 +215,9 @@ const Home = () => {
 
         <div className="mt-32 flex items-center flex-wrap">
           <img
-            className="basis-[45%]"
+            className="basis-[45%] border-2 bg-gray-50 opacity-20 h-96 rounded-md"
             height={300}
-            src="https://khmercoder.com/assets/images/kol-program-md.png"
+            src=""
             alt=""
           />
 
@@ -262,10 +273,7 @@ const Home = () => {
 
           <div className="flex mt-20 gap-10">
             <Link className="rounded-lg overflow-hidden block" to="/">
-              <img
-                src="https://khmercoder.com/assets/images/events/sr-1.jpg?height=400&width=600"
-                alt=""
-              />
+              <img src="/public/image.jpg" alt="" />
               <div className="bg-black p-6">
                 <h2 className="text-xl font-bold text-yellow-500 mb-2">
                   Khmer Coders Party Siem Reap v1
@@ -313,10 +321,7 @@ const Home = () => {
             </Link>
 
             <Link className="rounded-lg overflow-hidden block" to="/">
-              <img
-                src="https://khmercoder.com/assets/images/events/sr-1.jpg?height=400&width=600"
-                alt=""
-              />
+              <img src="/public/image.jpg" alt="" />
               <div className="bg-black p-6">
                 <h2 className="text-xl font-bold text-yellow-500 mb-2">
                   Khmer Coders Party v5
@@ -364,10 +369,7 @@ const Home = () => {
             </Link>
 
             <Link className="rounded-lg overflow-hidden block" to="/">
-              <img
-                src="https://khmercoder.com/assets/images/events/sr-1.jpg?height=400&width=600"
-                alt=""
-              />
+              <img src="/public/image.jpg" alt="" />
               <div className="bg-black p-6">
                 <h2 className="text-xl font-bold text-yellow-500 mb-2">
                   Khmer Coders Party v4
@@ -435,7 +437,12 @@ const Home = () => {
               </p>
 
               <div className="flex items-center gap-5 mt-5">
-                <div className="w-12 h-12 bg-white rounded-full"></div>
+                <div className="flex items-center justify-center w-12 h-12 rounded-full bg-gray-50 opacity-80">
+                  <div className="flex flex-col items-center">
+                    <div className="w-2 h-2 bg-gray-400 rounded-full"></div>
+                    <div className="w-4 h-2 bg-gray-400 rounded-t-sm mt-1"></div>
+                  </div>
+                </div>
                 <div>
                   <h1 className="font-semibold">Sokha Chea</h1>
                   <p className="text-gray-400 text-sm">Frontend Developer</p>
@@ -451,7 +458,12 @@ const Home = () => {
               </p>
 
               <div className="flex items-center gap-5 mt-5">
-                <div className="w-12 h-12 bg-white rounded-full"></div>
+                <div className="flex items-center justify-center w-12 h-12 rounded-full bg-gray-50 opacity-80">
+                  <div className="flex flex-col items-center">
+                    <div className="w-2 h-2 bg-gray-400 rounded-full"></div>
+                    <div className="w-4 h-2 bg-gray-400 rounded-t-sm mt-1"></div>
+                  </div>
+                </div>
                 <div>
                   <h1 className="font-semibold">Dara Kim</h1>
                   <p className="text-gray-400 text-sm">Software Engineer</p>

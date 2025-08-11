@@ -14,7 +14,7 @@ const Events = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
         <Link>
           <EventCard
-            img={`https://khmercoder.com/assets/images/events/sr-1.jpg?height=400&width=600`}
+            img="/public/image.jpg"
             date={"May, 17th 2025"}
             title={"Khmer Coders Party Siemreap v1"}
             description={
@@ -26,7 +26,7 @@ const Events = () => {
         </Link>
         <Link>
           <EventCard
-            img={`https://khmercoder.com/assets/images/events/5.jpg?height=400&width=600`}
+            img="/public/image.jpg"
             date={"March, 7th 2025"}
             title={"Khmer Coders Party v5"}
             description={
@@ -38,7 +38,7 @@ const Events = () => {
         </Link>
         <Link>
           <EventCard
-            img={`https://khmercoder.com/assets/images/events/4.jpg?height=400&width=600`}
+            img="/public/image.jpg"
             date={"November, 7th 2024"}
             title={"Khmer Coders Party v4"}
             description={
@@ -50,7 +50,7 @@ const Events = () => {
         </Link>
         <Link>
           <EventCard
-            img={`https://khmercoder.com/assets/images/events/3.jpg?height=400&width=600`}
+            img="/public/image.jpg"
             date={"August, 9th 2024"}
             title={"Khmer Coders Party v3"}
             description={
@@ -62,7 +62,7 @@ const Events = () => {
         </Link>
         <Link>
           <EventCard
-            img={`https://khmercoder.com/assets/images/events/2.jpg?height=400&width=600`}
+            img="/public/image.jpg"
             date={"June, 7th 2024"}
             title={"Khmer Coders Party v2"}
             description={
@@ -74,7 +74,7 @@ const Events = () => {
         </Link>
         <Link>
           <EventCard
-            img={`https://khmercoder.com/assets/images/events/1.jpg?height=400&width=600`}
+            img="/public/image.jpg"
             date={"February 16, 2024"}
             title={"Khmer Coders Party v1"}
             description={

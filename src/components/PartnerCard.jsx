@@ -37,12 +37,7 @@ const PartnerCard = ({ img, sponsors, title, description }) => {
   return (
     <div className="mx-auto rounded-xl overflow-hidden bg-gray-900 pb-8">
       <div className="h-[220px] flex items-center justify-center bg-gray-800">
-        <img
-          className="object-cover"
-          width="150"
-          src={img}
-          alt="Event banner"
-        />
+        <p className="text-2xl text-white animate-bounce">Event Banner</p>
       </div>
 
       <div className="px-6 pt-4">

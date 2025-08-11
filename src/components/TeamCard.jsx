@@ -75,7 +75,12 @@ const TeamCard = ({ img, name, position, description, social }) => {
   return (
     <div className="bg-gray-900 text-white flex flex-col items-center p-6 rounded-lg border border-gray-800">
       <div className="flex flex-col items-center px-2">
-        <img className="w-32 h-32 bg-white rounded-full" src={img} alt="" />
+        <div className="flex items-center justify-center w-32 h-32 rounded-full bg-gray-50 opacity-80">
+          <div className="flex flex-col items-center">
+            <div className="w-8 h-8 bg-gray-400 rounded-full"></div>
+            <div className="w-14 h-8 bg-gray-400 rounded-t-md mt-1"></div>
+          </div>
+        </div>
         <h1 className="mt-4 font-bold text-xl">{name}</h1>
         <p className="mt-2 text-yellow-500">{position}</p>
         <p className="text-center mt-4 text-gray-400">{description}</p>

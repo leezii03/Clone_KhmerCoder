@@ -3,14 +3,13 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="max-w-[1400px] mx-auto flex justify-between items-center">
+    <div className="max-w-[1400px] mx-auto flex justify-between items-center py-4">
       {/* Logo */}
       <Link to="/">
         <img
-          width={100}
-          src="https://khmercoder.com/khmer-coder.svg"
+          src="/public/logo.svg"
           alt="Khmer Coder Logo"
-          className="hover:opacity-90 transition-opacity duration-200"
+          className="hover:opacity-90 transition-opacity duration-200 w-16"
         />
       </Link>
 
