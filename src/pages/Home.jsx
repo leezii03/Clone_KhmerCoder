@@ -120,7 +120,7 @@ const Home = () => {
           <div className="relative flex-1">
             <img
               className="w-full h-96 object-cover rounded-md"
-              src="/public/image.jpg"
+              src="/image.jpg"
               alt=""
             />
 
@@ -273,7 +273,7 @@ const Home = () => {
 
           <div className="flex mt-20 gap-10">
             <Link className="rounded-lg overflow-hidden block" to="/">
-              <img src="/public/image.jpg" alt="" />
+              <img src="/image.jpg" alt="" />
               <div className="bg-black p-6">
                 <h2 className="text-xl font-bold text-yellow-500 mb-2">
                   Khmer Coders Party Siem Reap v1
@@ -321,7 +321,7 @@ const Home = () => {
             </Link>
 
             <Link className="rounded-lg overflow-hidden block" to="/">
-              <img src="/public/image.jpg" alt="" />
+              <img src="/image.jpg" alt="" />
               <div className="bg-black p-6">
                 <h2 className="text-xl font-bold text-yellow-500 mb-2">
                   Khmer Coders Party v5
@@ -369,7 +369,7 @@ const Home = () => {
             </Link>
 
             <Link className="rounded-lg overflow-hidden block" to="/">
-              <img src="/public/image.jpg" alt="" />
+              <img src="/image.jpg" alt="" />
               <div className="bg-black p-6">
                 <h2 className="text-xl font-bold text-yellow-500 mb-2">
                   Khmer Coders Party v4
