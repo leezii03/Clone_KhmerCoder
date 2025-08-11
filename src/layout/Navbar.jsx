@@ -7,7 +7,7 @@ const Navbar = () => {
       {/* Logo */}
       <Link to="/">
         <img
-          src="/public/logo.svg"
+          src="/logo.svg"
           alt="Khmer Coder Logo"
           className="hover:opacity-90 transition-opacity duration-200 w-16"
         />
